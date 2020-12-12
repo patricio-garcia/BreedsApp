@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "447322928385",
+    "project_id": "breedsapp-25149",
+    "storage_bucket": "breedsapp-25149.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447322928385:android:80197f77dce48ba43a9700",
+        "android_client_info": {
+          "package_name": "cl.serlitoral.BreedsApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447322928385-ipkj976ffe3qs0nk2es6r1gv8umogtvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs_tj5I6v3Z2UOO4tkBNbV045AtEa4zQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447322928385-ipkj976ffe3qs0nk2es6r1gv8umogtvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

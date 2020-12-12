@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Perritos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tvTitle">Titulo</string>
+    <string name="breedImage">Imagen</string>
+    <string name="btnFav">Mis Favoritos</string>
+    <string name="tvWelcome">Bienvenido a BreedsApp</string>
+    <string name="tvFavImages">Mis Imagenes Favoritas</string>
+</resources>
