@@ -1,7 +1,5 @@
 package cl.serlitoral.BreedsApp.domain.usecase;
 
-import android.util.Log;
-
 import cl.serlitoral.BreedsApp.data.repository.iBreddRepositoryPresenter;
 import cl.serlitoral.BreedsApp.data.repository.BreedRepository;
 import cl.serlitoral.BreedsApp.domain.presenter.iBreedPresenterView;

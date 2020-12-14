@@ -58,12 +58,12 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.PicturesAdap
 
     public class PicturesAdapterVH extends RecyclerView.ViewHolder implements View.OnLongClickListener {
 
-        private ImageView imgPictures;
+        private ImageView imgBreeds;
         private Context context;
 
         public PicturesAdapterVH(@NonNull View itemView) {
             super(itemView);
-            imgPictures=binding.imgBreed;
+            imgBreeds = binding.imgBreed;
             context=itemView.getContext();
             itemView.setOnLongClickListener(this);
         }
@@ -72,12 +72,12 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.PicturesAdap
             Glide.with(context).
                     load(picture).
                     override(500,500).
-                    into(imgPictures);
+                    into(imgBreeds);
         }
 
         @Override
         public boolean onLongClick(View v) {
-            int position=getAdapterPosition();
+            int position = getAdapterPosition();
             listener.onLongClick(position);
             return true;
         }

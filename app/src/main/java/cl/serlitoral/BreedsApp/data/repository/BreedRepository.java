@@ -2,7 +2,6 @@ package cl.serlitoral.BreedsApp.data.repository;
 
 import android.util.Log;
 
-import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 
